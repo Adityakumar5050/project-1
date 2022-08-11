@@ -1,0 +1,96 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to mathura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class= "sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Place</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contect.html">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="ShowMenu()"></i>
+        </nav>
+      <h1> About Us</h1>
+    </section>
+
+    <!--------about us content------->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1> Mathura  Vrindavan Govardhan</h1>
+                <p>It is true that Mathura is the birthplace of Lord Krishna, the incarnation of <br>Lord
+                    Vishnu.Traditionally it is also recognized as the capital of Braj Bhoomi.<br>Mathura is located
+                    in Uttar Pradesh and is located at a distance of 145 km <br> southeast of Delhi and the
+                    northwestern part of Agra at a distance of 58 km<br>into two parts, one part occupying places like
+                    Mahavan, Baldeo, Mat and <br >Bajna and the western part of Yamuna that covers the Mathura
+                    region <br>encompassing Vrindavan, Govardhan, Kusum Sarovar, Barsana and Nandgaon..
+                           <br>In Vrindavan there are some special places with fascinating histories.Like 
+                           <br>Nidhivan is a very beautiful kunja of small trees. According to Vishwanath
+                           <br>Chakravarty Thakur when Lord Krishna left Rasalila to find Srimati 
+                           <br>Radharani, this is the place where it had happened.she's seen as equal
+                           <br>to Krishna, the other half of his soul split in two a long time before,
+                           <br>and finally coming back to each other. Their love was inevitable,even
+                           <br>though he left her behind and went on to conquer the world.
+                           <br>You'll always remember your first.
+                           <br>Govardhan Puja is celebrated on the day after Diwali. It is the day upon
+                           <br>which Lord Krishna defeated Indra, the deity of thunder and rain.As per 
+                           <br> the story, Krishna saw huge preparations for the annual offering to Indra
+                           <br>to Indra and questions his father Nanda about it.
+ 
+                </p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW https://en.wikipedia.org/wiki/Mathura</a>
+            </div>
+            <div class="about-col">
+                <img src="images/krishna.2.jpg">
+            </div>
+        </div>
+        </section>
+
+    
+    <!-----footer----->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Mathura is most famous for being considered the birthplace of Krishna, the 
+            most popular incarnation of the Hindu god Vishnu.<br> The surrounding area of 
+            Mathura forms part of Vraja kshetra (popularly known as Braj), considered 
+            sacred as being <br>the location of Krishna's childhood activities.</p>
+            <div class="icons">
+                <i class=" fa fa-facebook"></i>
+                <i class=" fa fa-twitter"></i>
+                <i class=" fa fa-instagram"></i>
+                <i class=" fa fa-linkedin"></i>
+            </div>
+            <p>Made with<i class="fa fa-heart-o"></i>by Aditya kumar</p>
+    </section>
+
+
+
+
+    <!-----------javascript for toggle menu-------->
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function ShowMenu(){
+        navLinks.style.right="0"
+    }
+    function hideMenu(){
+        navLinks.style.right="200px";
+    }
+    </script>    
+</body>
+</html>
