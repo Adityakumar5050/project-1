@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class= "sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo-1.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Place</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contect.html">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="ShowMenu()"></i>
+        </nav>
+      <h1> Ours Places </h1>
+    </section>
+    
+<!-------blog page content---------->
+<section>
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/user.2.jpg">
+            <h2>Radha krishna blog</h2>
+            <p>Radha is the incarnation of the goddess Lakshmi, who is the wife of Vishnu.
+            She is sometimes called “Radharani.From childhood, she was very devoted to
+            Krishna,who was also her foster brother. Though Radha and Krishna never
+             married, her intense love for Krishna represents both the married, her 
+            intense love for Krishna represents both the love a wife has for her
+            husband and the love a devotee has for the divine. Since Radha and
+            Krishna were children when they fell in love, their love for each other was 
+            very pure and spiritual, the ideal love. When Krishna left his childhood  
+            </p>
+            <br>
+
+
+            <p>The birth of Krishna was an unusual event. His mother, the princess Devaki, 
+                had been imprisoned by the demon king Kamsa because a prophecy said that 
+                her eighth child would kill the demon. Devaki’s first six children were 
+                killed immediately. Her seventh escaped when Devaki pretended to have a 
+                miscarriage,and her eighth child, Krishna, was exchanged for a cowherd’s
+                daughter.
+                </p>
+                <br>
+                 
+                 
+                <p>Though Krishna is the ultimate divine being, Radha is the Supreme Goddess
+                This is because while Krishna has power over all things, Radha,through 
+                 his love for her, has control over him. This gives Radha a position of 
+                immense power. Without each other, however, they are meaningless: Krishna
+                would not be Krishna without his beloved Radha, and Radha would be empty
+                and lost without Krishna. 
+                </p>
+                <br>
+                
+                <p>The worship of Krishna may have started as early as the 5th century BCE. Today he
+                 is worshipped as the supreme Hindu god by many believers, and he is especially 
+                 revered in Bengal and Udupi in southern India. One of the many festivals held in
+                 his honour is the ratha-yatra chariot festival in Puri which commemorates Radha's 
+                 successful attempt to persuade Krishna to return to Vrindavana.</p>
+                </p> 
+
+
+            <div class="comment-box">
+
+                <h3>Leave a Comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter name">
+                    <input type="email" placeholder="Enter Eamil">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COOMENT</button>
+                </form>
+
+            </div>
+
+        </div>
+        <div class="blog-right">
+            <div>
+            <h3>Place You Can Visit</h3>
+            </div>
+            <div>
+                <span>Mathura</span>
+                <span>01</span>
+                </div>
+                <div>
+                    <span>Vrindavan</span>
+                    <span>02</span>
+                    </div>
+                    <div>
+                        <span>Govardhan</span>
+                        <span>03</span>
+                        </div>
+                        <div>
+                            <span>Kusum Sarovar</span>
+                            <span>04</span>
+                            </div>
+                            <div>
+                             <span>Barsana</span>
+                                <span>05</span>
+                                </div>
+                                 <div>
+                                    <span>Nandgaon</span>
+                                    <span>06</span>
+                                    </div>
+                                    <div>
+                                        <span>Nidhivan</span>
+                                        <span>06</span>
+                                        </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-----footer----->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Mathura is most famous for being considered the birthplace of Krishna, the 
+            most popular incarnation of the Hindu god Vishnu.<br> The surrounding area of 
+            Mathura forms part of Vraja kshetra (popularly known as Braj), considered 
+            sacred as being <br>the location of Krishna's childhood activities.</p>
+            <div class="icons">
+                <i class=" fa fa-facebook"></i>
+                <i class=" fa fa-twitter"></i>
+                <i class=" fa fa-instagram"></i>
+                <i class=" fa fa-linkedin"></i>
+            </div>
+            <p>Made with<i class="fa fa-heart-o"></i>by Aditya kumar</p>
+    </section>
+
+
+
+
+    <!-----------javascript for toggle menu-------->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function ShowMenu(){
+            navLinks.style.right="0"
+        }
+        function hideMenu(){
+            navLinks.style.right="200px";
+        }
+        </script>    
+    </body>
+    </html>

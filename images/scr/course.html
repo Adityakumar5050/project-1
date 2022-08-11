@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to mathura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class= "sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Place</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contect.html">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="ShowMenu()"></i>
+        </nav>
+      <h1> Ours Places </h1>
+    </section>
+    
+<!-------course---------->
+<section class="course">
+    <h1>Places to visit in Mathura</h1>
+    <p>Loard Krishna who is believed to be an incarnation of Loard Vishnu</p>
+    <div class="row">
+        <div class="course-col">
+            <h3> Mathura</h3>
+            <p> Mathura is a sacred city in uttar pradesh,northen India.
+                The deity Loard Krishna is said to have been born on the 
+                site of sri Krishna Janma Bhoomi,a Hindu temple.</p>
+        </div>
+        <div class="course-col">
+            <h3>Vrindavan</h3>
+            <p>Vrindavan is a holy town in Uttar Pradesh,northen India
+                The Hindu deity Krishna is said to have spent his childhood here.
+                it's home to temple,many dedicated to Krishna and his lover,
+                 the deity Radha.</p>
+        </div>
+        <div class="course-col">
+            <h3>Govardhan</h3>
+            <p>Govardhan Hill,stretching from Radha kund to south of Govardhan
+                ,is a long ridge that,at its highest,stands 100feet(30m) above the 
+                surrounding land.</p>
+        </div>
+    </div>
+</section>
+<!----- Facilites--------->
+<section class="facilities">
+    <h1>Budget Friendly places to visit in Mathura </h1>
+    <p>The top attractions to visit in Mathura are: Krishna Janmabhoomi Temple.
+        Barsana Shri Radha Rani Temple
+    </p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/washingtone.jpg">
+            <h3>Janmabhoomi Temple</h3>
+            <p>The Krishna Janmasthan Temple Complex is a group of Hindu
+                temples in Mathura,Uttar Pradesh,India.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.jpg">
+            <h3>cafeteria</h3>
+            <p>There is a food-serving counter/stalls or booths,either
+                in a line or allowing arbitary walking paths.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/user.1.jpg">
+            <h3>Prem Mandir</h3>
+            <p>Prem Mandir (The Temple of Love) is a Hindu temple in 
+                Vrindavan,Uttarpradesh.It's dedicated to Radha Krishna and Sita Ram.</p>
+        </div>
+       
+    </div>
+</section>
+    
+
+    
+    <!-----footer----->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Mathura is most famous for being considered the birthplace of Krishna, the 
+            most popular incarnation of the Hindu god Vishnu.<br> The surrounding area of 
+            Mathura forms part of Vraja kshetra (popularly known as Braj), considered 
+            sacred as being <br>the location of Krishna's childhood activities.</p>
+            <div class="icons">
+                <i class=" fa fa-facebook"></i>
+                <i class=" fa fa-twitter"></i>
+                <i class=" fa fa-instagram"></i>
+                <i class=" fa fa-linkedin"></i>
+            </div>
+            <p>Made with<i class="fa fa-heart-o"></i>by Aditya kumar</p>
+    </section>
+
+
+
+
+    <!-----------javascript for toggle menu-------->
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function ShowMenu(){
+        navLinks.style.right="0"
+    }
+    function hideMenu(){
+        navLinks.style.right="200px";
+    }
+    </script>    
+</body>
+</html>
